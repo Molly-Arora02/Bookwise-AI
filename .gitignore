@@ -1,0 +1,48 @@
+# Environment and Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets & Local Configurations
+.env
+.env.local
+*.key
+*.pem
+
+# Vector Database and Caches
+chroma_db/
+.chroma/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data Files (Keep large copyrighted PDF out of public repo)
+data/*.pdf
+!data/README.md
+
+# Operating System & IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
